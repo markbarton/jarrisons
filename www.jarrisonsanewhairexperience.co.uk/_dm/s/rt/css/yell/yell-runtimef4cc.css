@@ -1,0 +1,21 @@
+/* This file is auto-generated from a `scss` file with the same name */
+
+.poweredBy, .poweredBy a, .poweredBy div {
+  text-align: center;
+  color: #fefefe; }
+
+.poweredBy {
+  font-size: 14px;
+  background-color: #323232 !important;
+  font-family: "Open Sans", Arial, Helvetica, Verdana, sans-serif !important; }
+
+.poweredLine1 img {
+  vertical-align: middle;
+  height: 25px;
+  margin-left: 4px; }
+
+.poweredLine1 {
+  padding: 10px; }
+
+.poweredLine2 {
+  padding: 5px 10px 10px; }

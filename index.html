@@ -407,7 +407,7 @@
         <div class="col-sm-12 col-md-4 col-lg-4 pull-right">
 			<div id="ContactSuccessMessage"></div>
 			<div id="ContactErrorMessage"></div>
-          <form name="ContactForm" id="ContactForm" method="post">
+          <form name="ContactForm" id="ContactForm" method="post" data-netlify="true" netlify-honeypot="bot-field" >
             <div class="form-group pull-left">
               <input type="text" class="form-control required" name="ContactFullName" id="ContactFullName" placeholder="Name"  >
             </div>
@@ -422,6 +422,9 @@
               <textarea placeholder="Message" name="ContactDescription" id="ContactDescription" class="form-control"></textarea>
             </div>
             <input type="submit" class="btn btn-primary" value="Submit" >
+            <p class="hidden">
+                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+              </p>
           </form>
         </div>
       </div>

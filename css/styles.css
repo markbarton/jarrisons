@@ -124,7 +124,14 @@ input, select, textarea, input[type=text], input[type=date], input[type=url], in
 /* ==========================================================================
    #Reset end
    ========================================================================== */
-   
+ .highlights{
+	list-style-type: circle;
+	font-weight: normal;
+ }  
+ .highlights li{
+	 font-weight: 300;
+	 font-family: 'Yanone Kaffeesatz', sans-serif;
+ }
 /* ==========================================================================
    #header
    ========================================================================== */
@@ -487,8 +494,8 @@ header {
   ========================================================================== */
 
 #contact {
-	background: url(http://www.placehold.it/2560x1440) no-repeat left center #ccc;
-	padding: 100px 0px;
+	background: rgb(92,224,235);
+	padding: 30px 0px;
 }
 #contact h2 {
 	margin-bottom: 25px;
@@ -498,7 +505,7 @@ header {
 	float: left;
 	width: 62%;
 	position: relative;
-	padding-bottom: 38.7%;
+	padding-bottom: 41%;
 }
 .mapcont iframe {
 	border: medium none!important;
@@ -1266,7 +1273,7 @@ textarea.form-control {
 .titile-bg {
 	padding: 33px 29px 30px;
 	margin-top: -95px;
-	width: 40%;
+	width: 50%;
 }
 .white-bg {
 	padding: 24px 0px 30px;
@@ -1374,6 +1381,7 @@ textarea.form-control {
 	width: 82.2%;
 }
 .titile-bg {
+	width:60%;
 	padding: 33px 29px 30px;
 }
 .white-bg {

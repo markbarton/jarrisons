@@ -1,0 +1,12 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+   - name: SCP Files
+     uses: appleboy/scp-action@v0.0.1

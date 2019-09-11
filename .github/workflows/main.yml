@@ -8,12 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-   - name: SCP Files
-     uses: appleboy/scp-action@v0.0.1
-     env:
-       HOST: markbarton.dev
-       USERNAME: mark
-       PASSWORD: lotus247
-       PORT: 22
-       SOURCE: *
-       TARGET: /var/www/test
+    - name: SCP Files
+      uses: appleboy/scp-action@v0.0.1
+      env:
+        HOST: markbarton.dev
+        USERNAME: mark
+        PASSWORD: lotus247
+        PORT: 22
+        SOURCE: *
+        TARGET: /var/www/test

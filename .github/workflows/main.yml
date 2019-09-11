@@ -15,5 +15,5 @@ jobs:
         USERNAME: mark
         PASSWORD: lotus247
         PORT: 22
-        SOURCE: *
+        SOURCE: /*
         TARGET: /var/www/test

@@ -17,4 +17,3 @@ jobs:
        PORT: 22
        SOURCE: *
        TARGET: /var/www/test
-  }
